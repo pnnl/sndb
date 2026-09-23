@@ -10,7 +10,7 @@ The SNDB is a global dataset for soil microbial necromass, compiled using amino 
 including primary research papers and meta-analyses. 
 We include necromass indices (amino sugar concentrations and calculated bacterial/fungal/microbial necromass values) as well as site and soil-level parameters (e.g. ecosystem type, soil C and N content, microbial biomass, etc.) that provide context to the samples. 
 
-v1.0.0 of this database contains 2668 records from 186 published papers.
+v2.0.0 of this database contains 4085 records from 228 published papers.
 
 ---
 
@@ -19,7 +19,7 @@ The database is composed of three files:
 
 1. `sndb_data.csv` containing the relevant necromass indices and data (see Table 1). This file also contains site and soil-level characteristics of the samples reported. Each record is assigned a unique SNDB record number.
 2. `sndb_studies.csv` that contains bibliographic information for each study used in this database (see Table 2). A unique SNDB publication index number is used to map the entries between the two files. 
-3. `sndb_metadata.docx` providing full documentation for all fields in the two data files.
+3. `sndb_column_description_DATA.docx` and `sndb_column_description_STUDIES.csv` providing full documentation for all fields in the two data files.
 
 ### Data access
 Users can download the flat (.csv) files from the [`database`](https://github.com/pnnl/sndb/tree/master/database) folder.  
