@@ -17,8 +17,8 @@ v2.0.0 of this database contains 4085 records from 228 published papers.
 ### Database structure
 The database is composed of three files: 
 
-1. `sndb_data.csv` containing the relevant necromass indices and data (see Table 1). This file also contains site and soil-level characteristics of the samples reported. Each record is assigned a unique SNDB record number.
-2. `sndb_studies.csv` that contains bibliographic information for each study used in this database (see Table 2). A unique SNDB publication index number is used to map the entries between the two files. 
+1. `sndb_data.csv` containing the relevant necromass indices and data. This file also contains site and soil-level characteristics of the samples reported. Each record is assigned a unique SNDB record number.
+2. `sndb_studies.csv` that contains bibliographic information for each study used in this database. A unique SNDB publication index number is used to map the entries between the two files. 
 3. `sndb_column_description_DATA.docx` and `sndb_column_description_STUDIES.csv` providing full documentation for all fields in the two data files.
 
 ### Data access
